@@ -25,9 +25,10 @@ for i=1:nx
         G(n, nym) = 1;
         G(n, nyp) = 1;
        
-%         if i > 10 & i < 20 & j > 10 & j < 20
-%             G(n,n) = -4;
-%         end
+        if i > 10 & i < 20 & j > 10 & j < 20
+            G(n,n) = -2;
+        end
+        
         end
     end  
 end
