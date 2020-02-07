@@ -1,3 +1,6 @@
+clc
+set(0,'DefaultFigureWindowStyle','docked')
+
 nx = 50;
 ny = 50;
 G = sparse(nx*ny,ny*nx);
